@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detect" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet" type="text/css">
+   
+    <title>HomeLane</title>
+    <link rel="icon" href="data:image/jpeg;base64,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">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  <div class="nav1">
+  <nav class="navbar navbar-expand-lg navbar navbar-light " style="background-color:white";>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://www.homelane.com/designer-affiliates" style="font-size: small;">Join as Design Expert<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="https://www.homelane.com/square-partner" style="font-size: small;">Partner with HomeLane<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="https://www.homelane.com/covid19measuresandpolicies" style="font-size: small;">Covid-19Measures</a>
+      </ul>
+    </div>
+  </div>
+  </nav>
+ 
+  
+    <nav class="navbar navbar-expand-lg navbar navbar-dark " style="background-color:rgb(62, 172, 163);">
+        <a class="navbar-brand" href="index.html" style="color: red;font-size:x-large; font-weight: bold;">Home Lane</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="design-gallery.html">Design Gallery <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="https://www.homelane.com/featured-projects">Custom Stories</a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Design Place
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(250, 206, 181);"> 
+                <a class="dropdown-item" href="https://www.homelane.com/modular-kitchen-designs">Modular Kitchen</a>
+                <a class="dropdown-item" href="https://www.homelane.com/wardrobes">Bedroom</a>
+                <a class="dropdown-item" href="https://www.homelane.com/home-design-products">Living Room</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="https://www.homelane.com/contact-us">Visit Us</a>
+            </li>
+            
+            
+          </ul>
+          
+          <nav class="navbar navbar-expand-lg navbar navbar-dark " style="background-color:rgb(62, 172, 163);">
+            <a class="navbar-brand" href="login.html" style="color:white; font-size: medium; ">Login/register</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </nav>
+          </nav>
+
+        </div>
+      </nav>
+     
+      <div class="jumbotron">
+      <div class="homeimg">
+        <img src="https://previews.123rf.com/images/milkos/milkos2003/milkos200300890/141392790-home-interior-design-ideas-happy-couple-thinking-about-designer-project-of-new-apartment-with-laptop.jpg" alt="" width="820" height="720">
+      </div>
+        <div class="lead">Get personalised home interiors</div> 
+        <p class="my-3">in just 45 days.</p>
+        <br>
+        <div class="booking">
+          <a href="consultation.html">
+            <button type="button" style="width: 9cm; height: 6ch;background-color: rgb(233, 32, 25); border-radius: 1ch;font-weight: bold;color: white;">BOOK FREE CONSULTATION</button>
+          </a>
+      </div>
+        <br><br><br><br><br><br><br><br><br>
+        <div class="paddingimg">
+        <img src="https://super.homelane.com/bestBrand_award1.png" padding="2%" alt="" width="70" height="100" style="border: 4px solid; border-color: black; ">
+        <p>Best Interiors <br>
+          The Economic Times <br>
+          Best Brands 2020</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <p class="whyhome">Why HomeLane?</p>
+      <br>
+      <center>
+        <img src="https://super.homelane.com/RTB/homes_completed1613651968,design_experts1613651968,installation_days1613651968.svg" alt="" width="110" height="110" hspace="60">
+        <img src="https://super.homelane.com/RTB/homes_completed1615894973.svg" alt="" width="110" height="110" hspace="60">
+        <img src="https://super.homelane.com/RTB/design_experts1613653661.svg" alt="" width="110" height="110" hspace="60">
+        <img src="https://super.homelane.com/RTB/material_warranty1613655536.svg" alt=""  width="110" height="110" hspace="60">
+      </center>
+    </div>
+    <br>
+    <br>
+     <hr>
+     <br>
+     <div class="row no-gutters bg-light position-center">
+      <div class="col-md-6 mb-md-0 p-md-4">
+      <center>
+        <img src="https://super.homelane.com/homepage/CompleteHI-03.png" class="w-65" height="350" alt="..." >
+      </center>
+      </div>
+      <div class="col-md-6 position-static p-4 pl-md-0">
+        <br><br><br>
+        <h5 class="mt-0">Complete home interiors in 3 easy steps</h5>
+        <div class="completeHomeInteriro_selectedTab_list__xW6W4">
+          <div class="completeHomeInteriro_selectedTab_details__1VTVk">
+            <h3 class="completeHomeInteriro_selectedTab_head__uJ_G_">Discover</h3>
+            <p class="completeHomeInteriro_selectedTab_desc__2e1TI">Explore more than just modular design ideas with our experts.</p>
+          </div>
+            <div class="completeHomeInteriro_selectedTab_details__1VTVk completeHomeInteriro_active__1LMr2">
+              <h3 class="completeHomeInteriro_selectedTab_head__uJ_G_">Design</h3>
+              <p class="completeHomeInteriro_selectedTab_desc__2e1TI">Complete the designs with painting, flooring and other decor solutions.</p>
+            </div>
+              <div class="completeHomeInteriro_selectedTab_details__1VTVk">
+                <h3 class="completeHomeInteriro_selectedTab_head__uJ_G_">Move-in</h3>
+                <p class="completeHomeInteriro_selectedTab_desc__2e1TI">Move in with ease, with our hassle-free civil work and installation services.</p>
+            </div>
+          </div>
+     
+      </div>
+      </div>
+      <br>
+      <br>
+      <hr>
+      <br>
+      <div id="imglb">
+        <img src="https://super.homelane.com/hpinterstitial1.jpg" alt="">
+      </div>
+      <br>
+      <center>
+      <section class="customers">
+        <a>Happy homes by HomeLane</a>
+      </section>
+      </center>
+        <br>
+        <div class="card-deck">
+          <div class="card">
+            <img src="https://super.homelane.com/deblina030520.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Deblina & Soumjith</h5>
+              <p class="card-text">"We are grateful for the rockstar team that managed the whole process to ensure that we got what we were looking for."</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://super.homelane.com/450x253-Pandian-Testimonials-Web-Images1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The Pandians</h5>
+              <p class="card-text">"We wanted to design a kid-friendly home, keeping the age of our son in mind. HomeLane and their experienced designers took care of every detail in delivering our dream home. We are very happy!</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 10 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://super.homelane.com/gurgaon/kavitha-testimonial.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Kavita and Akash Tavare</h5>
+              <p class="card-text">"What impressed us about HomeLane was their 45-day delivery promise and their high-quality factory finish products."</p>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 2 months ago</small>
+            </div>
+          </div>
+        </div>
+        <br><br><br>
+        <center>
+        <div style="font-size:x-large;">
+          <a>We're making news</a>
+        </div>
+        <br><br><br>
+        <div>
+          <a href="https://www.livemint.com/brand-stories/innovation-embracing-tech-empathy-will-help-cx-leaders-win-consumers-heart-11595568467790.html"><img src="https://super.homelane.com/livemint02.jpg" style="border: 1px solid rgb(212, 207, 207); border-radius: 6px; padding:1ch;" alt="" hspace="30"></a>
+          <a href="https://timesofindia.indiatimes.com/entertainment/events/bangalore/innovation-takes-citys-women-entrepreneurs-to-the-top/articleshow/76470366.cms"> <img src="https://super.homelane.com/toi02.jpg" style="border: 1px solid rgb(212, 207, 207); border-radius: 6px; padding:1ch;" alt="" hspace="30"></a>
+          <a href="https://inc42.com/startups/homelanes-high-end-home-design-platform-banks-on-delivery-guarantees-live-3d-visuals/"><img src="https://super.homelane.com/inc4202.jpg" style="border: 1px solid rgb(212, 207, 207); border-radius: 6px; padding:1ch;" alt="" hspace="30"></a>
+          <a href="https://realty.economictimes.indiatimes.com/news/allied-industries/homelane-raises-30-million-from-evolvence-india-fund-pidilite-others/72952786"><img src="https://super.homelane.com/et02.jpg" style="border: 1px solid rgb(212, 207, 207); border-radius: 6px; padding:1ch;" alt="" hspace="30"></a>
+        </div>
+        </center>
+        <br><br>
+        <hr>
+      <div class="last">
+      <br>
+      <p class="footer" style="padding-left: 11ch;">Our Trusted Partners</p>
+      <div class="row" style="padding-left: 10pc; ">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 thumbnail"><img src="https://super.homelane.com/homepage/partners/D%20Partners%20logo184x83-04.png" alt="" hspace="20"></div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 thumbnail"><img src="https://super.homelane.com/homepage/partners/D%20Partners%20logo184x83-02.png" alt="" hspace="20"></div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 thumbnail"><img src="https://super.homelane.com/homepage/partners/D%20Partners%20logo184x83-12.png"alt="" hspace="20"></div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 thumbnail"><img src="https://super.homelane.com/homepage/partners/D%20Partners%20logo184x83-10.png" alt="" hspace="20"></div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 thumbnail"><img src="https://super.homelane.com/homepage/partners/D%20Partners%20logo184x83-05.png" alt="" hspace="20"></div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 thumbnail"><img src="https://super.homelane.com/homepage/partners/D%20Partners%20logo184x83-03.png" alt="" hspace="20"></div>
+      </div>
+      </div>
+      <br><br><hr>
+    <div class="minifooter">
+     <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 thumbnail" style="padding-left: 1mm;"><img src="https://super.homelane.com/hllogosvg.svg"></div>
+      <p style="padding-left:3ch;">At HomeLane, we bring together functionality and aesthetics to provide homeowners with customised and efficient home designs. Our designers specialise in home interior designs and home décor, and help you create a personalised home to suit your lifestyle. From sophisticated living room designs to space-saving and clutter-free interior designs, we are here to help you find the best home decor and home design to match your needs and style. All our products come with up to 10-year warranty along with unwavering support and maintenance services. Explore thousands of inspiring interior designs or get a free estimate – it's all here on HomeLane.com, your one stop for complete home interiors.</p>
+      <hr>
+    </div>
+    <footer>
+      <p style="padding-left: 1ch;  font-size:medium; color: rgb(112, 110, 110);">Homevista Decor and Furnishings Pvt. Ltd. © 2020</p>
+      <div class="icons">
+      <i class="fa fa-phone" style="position: absolute; padding-top: 1mm;padding-left: 1mm;">
+      </i>
+        <a href="tel:1800-102-4663" style="padding-left: 3ch; color: inherit; text-decoration: none; ">1800-102-4663</a>
+        <i class="fa fa-envelope" style="position: relative; left: 2pc;"></i>
+        <a href="mailto:hello@homelane.com" style="padding-left: 5ch; color: inherit; text-decoration: none;">hello@homelane.com</a>
+      </div>
+      <section>
+        <ul id="services">
+          <li>
+            <div class="facebook">
+              <a href="https://www.facebook.com/homelaneinteriors">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+            </div>
+            <span>Facebook</span>
+          </li>
+          <li>
+            <div class="twitter">
+              <a href="https://twitter.com/homelanedecors">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </div>
+            <span>Twitter</span>
+          </li>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+          <!-- Add font awesome icons -->
+          <a href="#" class=""></a>
+
+          <li>
+            <div class="youtube">
+              <a href="https://www.youtube.com/channel/UCHfxWqUbKy8iB18haeZ65Uw">
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+              </a>
+            </div>
+            <span>YouTube</span>
+          </li>
+          <li>
+            <div class="linkedin">
+              <a href="https://www.linkedin.com/company/3720649/">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </div>
+            <span>LinkedIn</span>
+          </li>
+          <li>
+            <div class="instagram">
+              <a href="https://www.instagram.com/homelane_india/">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+            <span>Instagram</span>
+          </li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+.backgroundimg{
+    background-image: url(https://image.shutterstock.com/image-illustration/3d-rendering-white-room-sofa-260nw-270369584.jpg);
+}
+h2{
+    padding-top: 1cm;
+    padding-left: 2cm;
+}
+.gmailinks
+  {
+      text-align: right;
+      font-style: normal;
+      color: transparent;
+  }
+  .minifooter{
+    padding-left: 5ch;
+    font-size:small;
+    color: rgb(165, 158, 158);
+}
+  .icons{
+      
+      position: relative;
+     bottom: 1cm;
+      left: 26cm;
+      font-size: small;
+      font-weight:100;
+      color: rgb(85, 83, 83);
+  }
+  section #services {
+    text-align: center;
+    transform: translatez(0);
+  }
+ 
+  section #services li {
+    width: 30px;
+    height: 1px;
+    display: inline-block;
+    margin: 15px;
+    list-style: none;
+    
+  }
+  section #services li div {
+   
+    color: #74d4b3;
+    font-size: 1.6em;
+    text-align: center;
+    line-height: 10px;
+    background-color: #fff;
+    transition: all 0.5s ease;
+  }
+  section #services li a {
+    color: #e43618;
+  }
+  section #services li div:hover {
+    transform: rotate(360deg);
+    border-radius: 100px;
+  }
+  section #services li span {
+    
+    display: block;
+    
+    color: #fff;
+    text-transform: uppercase;
+    font-size:2ch;
+    text-align: center;
+  }

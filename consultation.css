@@ -1,0 +1,14 @@
+body{
+    background-image: url(https://super.homelane.com/squarepartner/XP%20big.png);
+ }
+ 
+ a{
+     position: relative;
+     left: 30cm;
+ }
+ .card{
+     background-image: url(https://super.homelane.com/products/07dec18/entertainment_unit/6.jpg);
+     font-size:x-large;
+     font-weight: bold;
+     color:rgb(255, 218, 6)
+ }
